@@ -13,12 +13,7 @@ body{
 .container{
 	padding-top: 20px;
 }
-/*figure img{
-	max-height: 22rem;
-}
-figure figcaption{
-	padding-top: 0.8rem;
-}*/
-.cell-xxl-quarter img{
-	height: 127.05px;
+.img-container{
+	height: 200px;
+	overflow: hidden;
 }
