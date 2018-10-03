@@ -24,7 +24,7 @@ excerpt: 如何使用ls、cat、mv、touch
 * ls -l
 * ls -al
 
-![ls.png](../ls.png)
+![ls.png](/static/images/ls.png)
 
 **cat**
 
@@ -60,7 +60,7 @@ touch filename
 
 会出现下图
 
-![explainshell.png](../explainshell.png)
+![explainshell.png](/static/images/explainshell.png)
 
 鼠标放到命令上，对应的解释会高亮。
 
