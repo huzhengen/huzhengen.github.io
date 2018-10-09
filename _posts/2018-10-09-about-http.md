@@ -31,7 +31,7 @@ HTTP请求包括4部分
 
 比如GET请求：
 
-打开Chrome，按F12，点击Network，在地址栏输入网址（比如https://www.baidu.com），点击第一个，然后查看右面的Headers里的Request Headers，点击view source，即可看到。
+打开Chrome，按F12，点击Network，在地址栏输入网址（比如https://www.baidu.com），点击第一个，然后查看右面的Headers里的**Request Headers**，点击view source，即可看到。
 
 ![http1.png](/static/images/http1.png)
 
@@ -73,7 +73,7 @@ HTTP响应包括4部分
 
 4、要下载的内容
 
-打开Chrome，按F12，点击Network，在地址栏输入网址（比如https://www.baidu.com），点击第一个，然后查看右面的Headers里的Response Headers，点击view source，即可看到。
+打开Chrome，按F12，点击Network，在地址栏输入网址（比如https://www.baidu.com），点击第一个，然后查看右面的Headers里的**Response Headers**，点击view source，即可看到。
 
 ![http3.png](/static/images/http3.png)
 
