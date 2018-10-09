@@ -57,8 +57,6 @@ Host: passport.baidu.com
 
 Connection: keep-alive
 
-Content-Length: 1442
-
 > 第3部分没有显示，第4部分在Form Data里
 
 **二、HTTP 响应包括哪些部分，如何用Chrome开发者工具查看 HTTP 响应内容**
@@ -82,8 +80,6 @@ HTTP响应包括4部分
 HTTP/1.1 200 OK
 
 Bdpagetype: 2
-
-Bdqid: 0xc7a10d0300005947
 
 Cache-Control: private
 
