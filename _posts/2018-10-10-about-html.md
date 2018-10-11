@@ -190,7 +190,7 @@ HTML标签列表
 * table
     * 表格。一般的结构如下
 
-```
+```html
 <table>
     <colgroup>
         <col>
