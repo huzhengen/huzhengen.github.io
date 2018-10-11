@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "关于HTML"
+title:  "HTML基础"
 date:   2018-10-10 08:57:15
 categories: html 前端
-excerpt: 关于HTML
+excerpt: HTML基础
 ---
 
 * content
 {:toc}
 
-# 关于HTML
+# HTML基础
 
 HTML，中文“超文本标记语言”，英文“**H**yper**T**ext **M**arkup **L**anguage”，简称HTML，是一种用于创建网页的标准标记语言。
 
@@ -111,6 +111,7 @@ HTML标签列表
 组织内容
 
 * p
+    * paragraph，表示一个段落
 * hr
 * pre
 * blockquote
@@ -128,9 +129,14 @@ HTML标签列表
 
 * span
 * a
+    * anchor
+    * a标签可以创建一个到其他网页、文件、同一页面内的位置、电子邮件地址或任何其他URL的超链接。
+    * href属性可以加一个超链接(http://baidu.com)、一个锚点(#abc)或者一个伪协议(javascript:alert(123);)
+    * target属性可以添加_top(顶级窗口)、_blank(新窗口)、_parent(父级窗口)
 * em
 * b
 * strong
+    * 表示文本十分重要，一般用粗体显示。
 * abbr
 * small
 * s
@@ -164,10 +170,12 @@ HTML标签列表
 
 * img
 * iframe
+    * 可以将一个页面嵌入到当前页面，添加name属性的可以用a标签的href属性在iframe里打开页面
 * embed
 * object
 * param
 * video
+    * 加上controls属性，可以允许用户控制视频的播放，包括音量，跨帧，暂停/恢复播放。
 * audio
 * source
 * track
@@ -175,11 +183,42 @@ HTML标签列表
 * map
 * area
 * svg
-*  math
+* math
 
 表格
 
 * table
+    * 表格。一般的结构如下
+```
+<table>
+    <colgroup>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tfoot>
+</table>
+```
 * caption
 * colgroup
 * col
@@ -193,6 +232,10 @@ HTML标签列表
 表单
 
 * form
+    * 目前一般用于提交post请求
+    * 在form表单里添加`<input type="submit">`或者`<button>submit</button>`可以直接点击按钮提交
+    * input等标签需要加name属性，用来提交数据到后台
+    * Content-Type: application/x-www-form-urlencoded
 * fieldset
 * legend
 * label

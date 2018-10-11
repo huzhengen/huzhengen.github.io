@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "关于HTTP"
+title:  "HTTP基础"
 date:   2018-10-09 10:33:21
 categories: http
-excerpt: 关于HTTP
+excerpt: HTTP基础
 ---
 
 * content
 {:toc}
 
-# 关于HTTP
+# HTTP基础
 
 本文主要介绍三个内容
 
