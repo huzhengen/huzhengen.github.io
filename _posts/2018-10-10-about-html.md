@@ -189,6 +189,7 @@ HTML标签列表
 
 * table
     * 表格。一般的结构如下
+
 ```
 <table>
     <colgroup>
@@ -219,6 +220,7 @@ HTML标签列表
     </tfoot>
 </table>
 ```
+
 * caption
 * colgroup
 * col
