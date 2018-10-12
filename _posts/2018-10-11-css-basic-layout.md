@@ -101,6 +101,19 @@ div{
 }
 ```
 
+或者
+
+```css
+div{
+    width: 300px;
+    height:200px;
+    border:1px solid red;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
+```
+
 2、内联元素
 
 给父级元素加`text-align: center`
@@ -168,5 +181,23 @@ main div{
     width: 200px;
     height: 200px;
     border: 1px solid red;
+}
+```
+
+或者
+```css
+main{
+    height: 500px;
+    border: 1px solid red;
+    position:relative;
+}
+main div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%)
 }
 ```
