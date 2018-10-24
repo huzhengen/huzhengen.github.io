@@ -11,7 +11,7 @@ excerpt: JS 里的数据类型
 
 # JS 里的数据类型
 
-JavaScript有7种数据类型，包括数字（number）、字符串（string）、布尔（boolean）、undefined（undefined）、null（null）、对象（object）和Symbol（Symbol|ES6新增）。
+JavaScript有7种数据类型，包括数字（number）、字符串（string）、布尔（boolean）、undefined（undefined）、null（null）、对象（object）和Symbol（Symbol）。
 
 * 数字（number）
     包括十进制（11|12e3）、二进制（0b11|0b或者0B开头）、八进制（011|00或者0o开头，或者有前导0、且只用到0-7的八个阿拉伯数字）、十六进制（0x11|0x或者0X开头）。
