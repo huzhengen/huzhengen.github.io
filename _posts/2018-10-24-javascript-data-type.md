@@ -9,6 +9,8 @@ excerpt: JS 里的数据类型
 * content
 {:toc}
 
+# JS 里的数据类型
+
 JavaScript有7种数据类型，包括数字（number）、字符串（string）、布尔（boolean）、undefined（undefined）、null（null）、对象（object）和Symbol（Symbol|ES6新增）。
 
 * 数字（number）
