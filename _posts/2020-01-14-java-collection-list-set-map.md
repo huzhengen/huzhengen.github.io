@@ -123,14 +123,14 @@ list.contains(999_999);
 long t2 = System.nanoTime();
 
 System.out.println("set: " + (t1-t0)/1000.0/1000);
-System.out.println("lst: " + (t2-t1)/1000.0/1000);
+System.out.println("list: " + (t2-t1)/1000.0/1000);
 ```
 
 运行上面代码之后，我这里显示：
 
-```shell script
+```shell
 set: 0.0526
-lst: 8.4076
+list: 8.4076
 ```
 
 HashSet是无序的，如果有需要可以用LinkedHashSet。
