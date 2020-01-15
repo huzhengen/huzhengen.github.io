@@ -19,7 +19,7 @@ Collection是一个接口，interface。具体的实现有List、Set等。
 
 Collection体系：
 
-![Collection体系](https://img-blog.csdn.net/20170415153957920)
+![Collection体系](/static/images/collection.jpg)
 
 Collection方法有：add(),addAll(),clear(),contains(),containsAll(),equals(),hashCode(),isEmpty()等等。
 
