@@ -187,3 +187,59 @@ public class Test {
 
 表现2：
 * 死锁
+
+```java
+public class Test {
+    // Java中任何的对象都可以当做锁
+    private static final Object lock1 = new Object();
+    private static final Object lock2 = new Object();
+    public static void main(String[] args) {
+        new Thread1().start();
+        new Thread2().start();
+    }
+    static class Thread1 extends Thread{
+        @Override
+        public void run(){
+            synchronized (lock1){
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                synchronized (lock2){
+                    System.out.println("123");
+                }
+            }
+        }
+    }
+    static class Thread2 extends Thread{
+        @Override
+        public void run(){
+            synchronized (lock2){
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                synchronized (lock1){
+                    System.out.println("456");
+                }
+            }
+        }
+    }
+}
+```
+
+main方法开始执行，开启新线程Thread1和Thread2，这2个线程几乎同时发生（Thread的创建是很快的）
+
+这时，JVM里有3条线程：main、Thread1、Thread2
+
+同一时刻，只有一个线程能拿到一把锁
+
+Thread1获得lock1，然后sleep 500ms
+
+Thread2获得lock2，然后sleep 100ms，100ms之后，Thread2要获得lock1，但是现在lock1在Thread1拿着，那么Thread2需要等着
+
+等到Thread1 sleep了500ms，Thread1要去获得lock2，但是现在lock2在Thread2拿着，那么Thread1也要等着
+
+死锁了......
