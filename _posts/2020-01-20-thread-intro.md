@@ -260,3 +260,5 @@ Thread2获得lock2，然后sleep 100ms，100ms之后，Thread2要获得lock1，�
 显然是Test这个进程，因为我刚才写的类是`public class Test`
 
 然后在命令行运行`jstack 1368`，然后......一点一点的排查
+
+预防死锁产生的原则：所有的线程都按照相同的顺序获得资源的锁。
