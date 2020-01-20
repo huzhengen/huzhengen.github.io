@@ -123,3 +123,67 @@ public class Test {
 对于CPU密集型（CPU intense）应用稍有折扣，多线程带来的提升有限
 
 多线程带来的性能提升是否是无穷无尽的呢？上限在哪？：单核CPU达到100%，多核CPU达到N*100%。
+
+# 线程安全
+
+你要享用多线程的便利，你就要承担多个人同时操作一个对象带来的问题。
+
+线程不安全的表现有：
+
+表现1：
+* 数据错误
+    * i++（这个可以看上面的代码）
+    * if-then-do（这个来看下面这个代码）
+    
+执行下面代码，看和你想象的一样吗？
+```java
+public class Test {
+    private static Map<Integer, Integer> map = new HashMap<>();
+    public static void main(String[] args) {
+        for (int i = 0; i < 1000; i++) {
+            new Thread(Test::putIfAbsent).start();
+        }
+    }
+    private static void putIfAbsent() {
+        try {
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        // 随机生成一个1到10之间的数字，如果他不在map中，就把他加入map
+        int r = new Random().nextInt(10);
+        if (!map.containsKey(r)) {
+            map.put(r, r);
+            System.out.println(r);
+        }
+    }
+}
+```
+
+我执行了2次，第一次正常打印了10个数字，第二次显示的是：
+```
+0
+4
+8
+7
+0
+4
+3
+9
+5
+6
+2
+1
+```
+打印出来2个`0`，2个`4`，其他数字都只有1个。
+
+> 线程1：随机生成了数字0，检查map里有没有0，检查之后发现没有0，duang，这时候CPU时间到了，挂起，开始执行线程2
+>
+> 线程2：随机生成了数字0，检查map里有没有0，检查之后发现没有0，把0放入map，执行完，这时候又继续线程1
+>
+> 线程1：从duang之后开始，把0放入map
+>
+> 这时候你就发现map里有了2个0......
+
+表现2：
+* 死锁
