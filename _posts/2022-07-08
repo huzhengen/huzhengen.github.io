@@ -1,0 +1,37 @@
+Today when i am working with Vue.js, i used the props data from the parent component.
+
+The tips of webstorm showed that `ESLint: Unexpected mutation of "formData" prop.(vue/no-mutating-props)`.
+
+I don't konw how to solve it, and i searched it on Google.
+
+I found an answer, and i solve it.
+
+I open the [汉兜](https://handle.antfu.me/), and want to guess today's idiom.
+
+The prompt shows the chinese character 丝, and i guess the idiom is 丝丝入扣, but i failed.
+
+I can't remember any idioms.
+
+I went to google.com and search the idiom included 丝.
+
+The second idiom i guessed is 抽丝剥茧, but i failed again.
+
+I knew the finals of the first word is `ou`, and the finals of the last word is `ian`.
+
+After i googled, i guess the idom is 藕断丝连.
+
+I successed.
+
+Today's words:
+
+extremely 非常 极其 极端
+
+idiom 成语
+
+prompt 提示 付款期限
+
+Chinese character 汉字
+
+finals 韵母
+
+kinda kind of 有点
