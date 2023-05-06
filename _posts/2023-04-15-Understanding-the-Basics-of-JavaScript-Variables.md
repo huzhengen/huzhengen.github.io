@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding the Basics of JavaScript Variables"
 date:   2023-04-15 19:29:33
-categories: url
+categories: javascript
 excerpt: Understanding the Basics of JavaScript Variables
 ---
 

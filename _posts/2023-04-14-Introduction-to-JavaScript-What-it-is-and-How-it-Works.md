@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to JavaScript: What it is and How it Works"
 date:   2023-04-14 16:29:33
-categories: url
+categories: javascript
 excerpt: Introduction to JavaScript What it is and How it Works
 ---
 
