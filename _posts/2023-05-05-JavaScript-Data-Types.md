@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript's Data Types"
-date:   2023-05-05 14:21:15
+date:   2023-05-05 14:21:15 +0800
 categories: javascript
 excerpt: JavaScript's Data Types
 ---

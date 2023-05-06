@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript Strings Explained"
-date:   2023-05-02 19:19:13
+date:   2023-05-02 19:19:13 +0800
 categories: javascript
 excerpt: JavaScript Strings Explained
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript BigInt: Handling Large Numbers in JavaScript"
-date:   2023-05-06 15:22:16
+date:   2023-05-06 15:22:16 +0800
 categories: javascript
 excerpt: JavaScript BigInt Handling Large Numbers in JavaScript
 ---

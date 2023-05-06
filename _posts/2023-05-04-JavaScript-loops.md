@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript loops"
-date:   2023-05-04 13:20:14
+date:   2023-05-04 13:20:14 +0800
 categories: javascript
 excerpt: JavaScript loops
 ---

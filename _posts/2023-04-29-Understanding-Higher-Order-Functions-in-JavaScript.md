@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding Higher-Order Functions in JavaScript"
-date:   2023-04-29 12:19:13
+date:   2023-04-29 12:19:13 +0800
 categories: javascript
 excerpt: Understanding Higher-Order Functions in JavaScript
 ---

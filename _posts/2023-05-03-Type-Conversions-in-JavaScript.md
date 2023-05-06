@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Type Conversions in JavaScript"
-date:   2023-05-03 12:19:13
+date:   2023-05-03 12:19:13 +0800
 categories: javascript
 excerpt: Type Conversions in JavaScript
 ---

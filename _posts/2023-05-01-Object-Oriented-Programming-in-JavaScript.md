@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Object-Oriented Programming in JavaScript"
-date:   2023-05-01 13:19:13
+date:   2023-05-01 13:19:13 +0800
 categories: javascript
 excerpt: Object-Oriented Programming in JavaScript
 ---

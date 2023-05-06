@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding JavaScript Arrays"
-date:   2023-04-30 13:19:13
+date:   2023-04-30 13:19:13 +0800
 categories: javascript
 excerpt: Understanding JavaScript Arrays
 ---
