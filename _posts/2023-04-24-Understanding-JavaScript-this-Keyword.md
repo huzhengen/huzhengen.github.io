@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Understanding JavaScript's "this" Keyword"
+title:  "Understanding JavaScript's 'this' Keyword"
 date:   2023-04-24 18:15:13
 categories: javascript
-excerpt: Understanding JavaScript's "this" Keyword
+excerpt: Understanding JavaScript's 'this' Keyword
 ---
 
 * content
