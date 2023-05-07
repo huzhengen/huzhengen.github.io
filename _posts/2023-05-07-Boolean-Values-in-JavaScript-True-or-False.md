@@ -23,7 +23,7 @@ let boolFalse = false;
 let boolExpression = (1 < 2); // evaluates to true
 ```
 
-Boolean values can also be the result of logical operations. For instance, the logical operator "&&" (and) returns true if both operands are true, and false otherwise. Similarly, the "||" (or) operator returns true if at least one of the operands is true. Here's an example:
+Boolean values can also be the result of logical operations. For instance, the logical operator "&&" (and) returns true if both operands are true, and false otherwise. Similarly, the "`||`" (or) operator returns true if at least one of the operands is true. Here's an example:
 
 ```js
 let a = true;
@@ -59,7 +59,7 @@ if (temperature > 30 || (temperature > 25 && isRainy)) {
 }
 ```
 
-In this example, the if statement evaluates the expression "(temperature > 30 || (temperature > 25 && isRainy))" and executes the first code block if the expression is true (i.e., the temperature is above 30 degrees Celsius or above 25 degrees Celsius and it's raining). Otherwise, the else statement executes the second code block.
+In this example, the if statement evaluates the expression "`(temperature > 30 || (temperature > 25 && isRainy))`" and executes the first code block if the expression is true (i.e., the temperature is above 30 degrees Celsius or above 25 degrees Celsius and it's raining). Otherwise, the else statement executes the second code block.
 
 Conclusion
 
