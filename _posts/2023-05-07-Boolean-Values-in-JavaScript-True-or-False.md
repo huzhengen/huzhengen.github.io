@@ -3,7 +3,7 @@ layout: post
 title:  "Boolean Values in JavaScript: True or False?"
 date:   2023-05-07 16:23:17 +0800
 categories: javascript
-excerpt: Boolean Values in JavaScript: True or False?
+excerpt: Boolean values are a fundamental concept in programming and JavaScript is no exception. In JavaScript, a boolean value represents a logical value of either true or false. Boolean values are commonly used in programming to control the flow of logic in code execution, conditionally execute code, and evaluate the outcome of logical operations.
 ---
 
 * content
