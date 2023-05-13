@@ -3,7 +3,7 @@ layout: post
 title:  "Understanding the Differences Between var, let, and const in JavaScript"
 date:   2023-05-13 17:48:31 +0800
 categories: javascript
-excerpt: In JavaScript, variables can be declared using three different keywords: var, let, and const. Although they are used to declare variables, these keywords have important differences in terms of scope, hoisting, and mutability. This article will delve into these differences and provide a clear understanding of when to use var, let, or const in JavaScript.
+excerpt: In JavaScript, variables can be declared using three different keywords, var, let, and const. Although they are used to declare variables, these keywords have important differences in terms of scope, hoisting, and mutability. This article will delve into these differences and provide a clear understanding of when to use var, let, or const in JavaScript.
 ---
 
 * content
